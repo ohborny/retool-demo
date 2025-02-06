@@ -1,0 +1,31 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "ca67555e-c91e-11ef-bc59-fb758caf2f75",
+  "appTemplate": {
+    "appThemeId": 130374,
+    "pageCodeFolders": {
+      "object": {
+        "page1": {
+          "array": []
+        },
+        "Home": {
+          "array": []
+        },
+        "Customers": {
+          "array": []
+        },
+        "Quotes": {
+          "array": []
+        },
+        "Settings": {
+          "array": []
+        }
+      }
+    },
+    "rootScreen": "defaultPage",
+    "appThemeName": "GreenGreen",
+    "version": "3.150.0",
+    "experimentalDataTabEnabled": true
+  }
+}
