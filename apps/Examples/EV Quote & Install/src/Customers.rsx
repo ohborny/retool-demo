@@ -14,6 +14,7 @@
     resourceName="a7a7398f-7b3f-4c4b-a1bc-1b42752ba611"
     warningCodes={[]}
   />
+  <Include src="./drawerFrame2.rsx" />
   <Frame
     id="$main3"
     enableFullBleed={false}
@@ -46,6 +47,17 @@
         </Tabs>
       </Header>
       <View id="bfcb8" viewKey="All Customers">
+        <Button id="button4" text="Add Customer">
+          <Event
+            event="click"
+            method="show"
+            params={{ ordered: [] }}
+            pluginId="drawerFrame2"
+            type="widget"
+            waitMs="0"
+            waitType="debounce"
+          />
+        </Button>
         <Table
           id="table1"
           autoColumnWidth={true}
@@ -72,7 +84,7 @@
             key="id"
             label="ID"
             position="center"
-            size={29.078125}
+            size={29.53125}
             summaryAggregationMode="none"
           />
           <Column
@@ -85,7 +97,7 @@
             label="User"
             position="center"
             referenceId="name"
-            size={245.671875}
+            size={259.0625}
             summaryAggregationMode="none"
             valueOverride="{{ currentSourceRow.firstName }} {{ currentSourceRow.lastName }}"
           />
@@ -99,7 +111,7 @@
             label="Role"
             placeholder="Select option"
             position="center"
-            size={70.9375}
+            size={72.953125}
             summaryAggregationMode="none"
           />
           <Column
@@ -110,7 +122,7 @@
             key="enabled"
             label="Enabled"
             position="center"
-            size={61.703125}
+            size={65.984375}
             summaryAggregationMode="none"
           />
           <Column
@@ -121,7 +133,7 @@
             key="createdAt"
             label="Created at"
             position="center"
-            size={91.75}
+            size={91.171875}
             summaryAggregationMode="none"
           />
           <Column
@@ -135,7 +147,7 @@
             label="Teams"
             placeholder="Select options"
             position="center"
-            size={253.796875}
+            size={265.34375}
             summaryAggregationMode="none"
           />
           <Column
@@ -146,7 +158,7 @@
             key="website"
             label="Website"
             position="center"
-            size={196.6875}
+            size={204.5}
             summaryAggregationMode="none"
           />
           <Column
