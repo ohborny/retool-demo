@@ -22,7 +22,6 @@
   "breadcrumbs1": {
     "container": "container2",
     "subcontainer": "d02bf",
-    "row": 0,
     "height": 0.6,
     "width": 12,
     "stackPosition": {
@@ -78,6 +77,27 @@
         "height": 0
       }
     }
+  },
+  "button4": {
+    "container": "tabbedContainer1",
+    "subcontainer": "bfcb8",
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button5": {
+    "rowGroup": "footer",
+    "subcontainer": "drawerFrame2",
+    "col": 9,
+    "height": 1
   },
   "container1": {
     "container": "tabbedContainer2",
@@ -214,9 +234,21 @@
     "col": 9,
     "height": 1
   },
+  "drawerCloseButton2": {
+    "rowGroup": "header",
+    "subcontainer": "drawerFrame2",
+    "col": 9,
+    "height": 1
+  },
   "drawerTitle1": {
     "rowGroup": "header",
     "subcontainer": "drawerFrame1",
+    "height": 0.6,
+    "width": 9
+  },
+  "drawerTitle2": {
+    "rowGroup": "header",
+    "subcontainer": "drawerFrame2",
     "height": 0.6,
     "width": 9
   },
@@ -449,7 +481,7 @@
   "table1": {
     "container": "tabbedContainer1",
     "subcontainer": "bfcb8",
-    "row": 0,
+    "row": 1,
     "height": 16.2,
     "width": 12,
     "stackPosition": {

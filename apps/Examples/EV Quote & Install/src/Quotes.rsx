@@ -140,7 +140,7 @@
                 label="ID"
                 placeholder="Enter value"
                 position="center"
-                size={29.546875}
+                size={29.53125}
                 summaryAggregationMode="none"
               />
               <Column
@@ -152,7 +152,7 @@
                 label="Project name"
                 placeholder="Enter value"
                 position="center"
-                size={258.859375}
+                size={258.84375}
                 summaryAggregationMode="none"
               />
               <Column
@@ -164,7 +164,7 @@
                 label="Account name"
                 placeholder="Enter value"
                 position="center"
-                size={104.75}
+                size={104.734375}
                 summaryAggregationMode="none"
               />
               <Column
@@ -176,7 +176,7 @@
                 label="Created date"
                 placeholder="Enter value"
                 position="center"
-                size={125.46875}
+                size={125.453125}
                 summaryAggregationMode="none"
               />
               <Column
@@ -188,7 +188,7 @@
                 label="Status"
                 placeholder="Enter value"
                 position="center"
-                size={123.984375}
+                size={123.96875}
                 summaryAggregationMode="none"
               />
               <Column
@@ -220,7 +220,7 @@
                 label="Estimated amount"
                 placeholder="Enter value"
                 position="center"
-                size={129.28125}
+                size={129.265625}
                 summaryAggregationMode="none"
               />
               <Column
