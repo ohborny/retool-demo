@@ -58,6 +58,12 @@
             waitType="debounce"
           />
         </Button>
+        <TextInput
+          id="table1SearchFilter"
+          iconBefore="bold/interface-search"
+          label=""
+          placeholder="Search in table"
+        />
         <Table
           id="table1"
           autoColumnWidth={true}
@@ -71,6 +77,7 @@
           enableSaveActions={true}
           primaryKeyColumnId="73191"
           rowHeight="medium"
+          searchTerm="{{ table1SearchFilter.value }}"
           showBorder={true}
           showFooter={true}
           showHeader={true}
