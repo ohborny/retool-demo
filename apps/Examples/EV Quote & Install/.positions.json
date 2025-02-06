@@ -481,7 +481,7 @@
   "table1": {
     "container": "tabbedContainer1",
     "subcontainer": "bfcb8",
-    "row": 1,
+    "row": 2,
     "height": 16.2,
     "width": 12,
     "stackPosition": {
@@ -492,6 +492,13 @@
         "height": 0
       }
     }
+  },
+  "table1SearchFilter": {
+    "container": "tabbedContainer1",
+    "subcontainer": "bfcb8",
+    "row": 1,
+    "height": 0.2,
+    "width": 4
   },
   "table2": {
     "container": "allProjectsContainer",
