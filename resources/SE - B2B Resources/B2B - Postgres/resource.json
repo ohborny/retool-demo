@@ -1,0 +1,26 @@
+{
+  "type": "postgresql",
+  "host": "resource-change-demo.csvnrhaulb9h.us-west-2.rds.amazonaws.com",
+  "port": "5432",
+  "databaseName": "b2b-dataset",
+  "databaseUsername": "delivery_user",
+  "databasePassword": "",
+  "description": null,
+  "outboundRegion": null,
+  "ssl": false,
+  "editPrivilege": false,
+  "options": {
+    "version": "SqlQueryUnified",
+    "authentication": "user_password",
+    "connectionString": "",
+    "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
+    "rejectUnauthorized": false,
+    "credentialPrivileges": { "allowRead": true, "allowWrite": true },
+    "disableServerSidePrepare": false,
+    "userExplicitlySetRejectUnauthorized": true
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "5723cb0c-e159-4c98-bd3e-6a5ba5eef070",
+  "toolscriptVersion": "1.0.0"
+}
