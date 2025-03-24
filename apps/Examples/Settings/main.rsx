@@ -1,4 +1,5 @@
 <App>
+  <Include src="./functions.rsx" />
   <GlobalWidgetProp id="title" defaultValue="App Title Here" />
   <GlobalWidgetProp
     id="cardDescription"
