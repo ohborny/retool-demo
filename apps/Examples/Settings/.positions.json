@@ -1,0 +1,27 @@
+{
+  "button1": {
+    "container": "moduleContainer",
+    "row": 3,
+    "col": 1,
+    "height": 0.8,
+    "width": 4
+  },
+  "moduleContainer": {
+    "height": 4.6,
+    "width": 5
+  },
+  "text1": {
+    "container": "moduleContainer",
+    "row": 0.6,
+    "col": 1,
+    "height": 0.6,
+    "width": 10
+  },
+  "text2": {
+    "container": "moduleContainer",
+    "row": 1.2,
+    "col": 1,
+    "height": 0.6,
+    "width": 10
+  }
+}
